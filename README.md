@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 OVERVIEW
 --------------
 
@@ -24,6 +24,7 @@ The API takes a JSON formatted post and returns the filtered data. If the JSON d
 
 **Example request:**
 
+```json
 {
     "payload": [
         {
@@ -52,10 +53,12 @@ The API takes a JSON formatted post and returns the filtered data. If the JSON d
     "take": 10,
     "totalRecords": 75
 }
+```
 
 
 **Example response:**
 
+```json
 {
     "response": [
         {
@@ -65,9 +68,4 @@ The API takes a JSON formatted post and returns the filtered data. If the JSON d
         }
     ]
 }
-=======
-nodejs-filter
-=============
-
-A JSON filtering web service built in node.js
->>>>>>> e10e89836360961caa67aa0444f735c7d402551d
+```
