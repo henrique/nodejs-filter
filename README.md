@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OVERVIEW
 --------------
 
@@ -64,3 +65,9 @@ The API takes a JSON formatted post and returns the filtered data. If the JSON d
         }
     ]
 }
+=======
+nodejs-filter
+=============
+
+A JSON filtering web service built in node.js
+>>>>>>> e10e89836360961caa67aa0444f735c7d402551d
